@@ -1,0 +1,107 @@
+/* Color Palette
+# - text: #0c1317
+# - background: #fcfcff
+# - primary: #1f4252
+# - secondary: #eda35e
+# - accent: #bd9584
+*/
+
+/* Global styles 
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    color: #0c1317;
+    background: #fcfcff;
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 12pt;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 40pt;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 30pt;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 13pt;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #1f4252;
+    color: #fcfcff;
+}
+
+footer {
+    background-color: #1f4252;
+    color: #fcfcff;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.contact-info a{
+    padding: 10px; 
+    display: inline-block;
+}
+
+.profile-img {
+    border-radius: 50%;
+    /* width: 300px;
+    float: left;
+    margin-right: 30px; */
+}
+
+.column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-exp {
+    background-color: #fcfcff;
+}
+
+
+
+/* Education
+------------------------------------*/
+
+.edu {
+    background-color: #eda35e;
+}
