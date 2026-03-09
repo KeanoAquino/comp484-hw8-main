@@ -7,25 +7,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
     <link href="./css/styles.css" rel="stylesheet"/>
 </head>
 <body>
     <!-- // Intro -->
+    <nav class="display">
+        <div class="nav-box"><a href="#Summary" title="Profile Summary">Summary</a></div>
+        <div class="nav-box"><a href="#Projects" title="Projects">Projects</a></div>
+        <div class="nav-box"><a href="#Education" title="Education">Education</a></div>
+        <div class="nav-box"><a href="#Contact" title="Contact Information">Contact-Info</a></div>
+        <div class="nav-box"><a href="./documents/keano-resume.pdf" download="keano-resume.pdf" title="Download as PDF">Download</a></div>
+    </nav>
     <header>
-        <div class="content-wrap">
+        <div id="Summary" class="content-wrap">
             <img class="profile-img column-narrow" src="./images/igpp.jpg" alt="Keano Aquino">
             <div class="column-wide">
                 <h1>Keano Aquino</h1>
                 <h2>Software Engineer</h2>
-                <p>Ambitious Computer Science senior with a solid foundation in data structures, algorithms, SQL, and testing. Experienced in developing backend solutions and optimizing database systems.</p>
+                <p>
+                    Ambitious Computer Science senior at California State University with a solid foundation in data structures, algorithms, SQL, and testing. 
+                    Experienced in developing backend solutions and optimizing database systems, with hands-on experience in full-stack development using Python, 
+                    JavaScript, and modern web technologies. Built practical applications including an algorithm visualization website and a hotel reservation 
+                    desktop app, showcasing strong skills in UI/UX design, database management, and testing methodologies.
+                </p>
             </div>
-            
         </div>
     </header>
     
     <main>
          <!-- // Work Experience -->
-        <section class="work-exp">
+        <section id="Projects" class="work-exp">
             <div class="content-wrap">
                 <h2>Projects</h2>
                 <div class="column-narrow">
@@ -57,7 +69,7 @@
         </section>
 
         <!-- // Education -->
-        <section class="edu">
+        <section id="Education" class="edu">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -74,12 +86,21 @@
     
     <!-- // Footer & contact info -->
     <footer>
-        <div class="content-wrap">
+        <div id="Contact" class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             <div class="contact-info">
-                <a href="mailto:kaquino702@gmail.com">kaquino702@gmail.com</a>
-                <a href="https://www.linkedin.com/in/keano-aquino-6986a2392/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/KeanoAquino" target="_blank">GitHub</a>
+                <a href="mailto:kaquino702@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    G-mail
+                </a>
+                <a href="https://www.linkedin.com/in/keano-aquino-6986a2392/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/KeanoAquino" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
             </div>
             <p>Copyright 2026 by Keano Aquino</p>
         </div>

@@ -10,6 +10,7 @@
 ------------------------------------*/
 html {
   box-sizing: border-box;
+  scroll-padding-top: 70px; /* Adjust based on nav height, fixes anchor link jump */
 }
 
 *, *:before, *:after {
@@ -50,6 +51,41 @@ h3 {
 
 /* Header & Footer 
 ------------------------------------*/
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #0f2834;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    font-size: 20pt;
+    color:#fcfcff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-box {
+    height: 100%;
+    align-content: center;
+}
+
+.nav-box:hover {
+    border-bottom: 5px solid #eda35e;
+    color: #eda35e;
+}
+
+.nav-box:hover a {
+    color: #eda35e;
+}
+
+
 header {
     background-color: #1f4252;
     color: #fcfcff;
@@ -61,6 +97,10 @@ footer {
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 h1, h2 {
     margin: 0;
 }
@@ -68,24 +108,22 @@ h1, h2 {
 .contact-info a{
     padding: 10px; 
     display: inline-block;
+    color: #eda35e;
 }
 
 .profile-img {
     border-radius: 50%;
-    /* width: 300px;
-    float: left;
-    margin-right: 30px; */
 }
 
 .column-narrow {
     width: 30%; 
     float: left; 
-    padding-right: 3%; 
+    margin-right: 3%; 
     min-height: 175px;
 }
 
 .column-wide {
-    width: 70%; 
+    width: 67%; 
     float: left; 
     min-height: 225px;
 }
@@ -104,4 +142,13 @@ h1, h2 {
 
 .edu {
     background-color: #eda35e;
+    background-image: 
+        linear-gradient(
+            rgba(237, 163, 94, 0.99), 
+            rgba(237, 163, 94, 0.85)   
+        ),
+        url("../images/csun.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
