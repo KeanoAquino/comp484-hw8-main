@@ -60,7 +60,7 @@ nav {
     z-index: 1000;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
 }
 
 nav a {
